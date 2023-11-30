@@ -238,6 +238,58 @@ export default function Slider() {
             </div>
           </SwiperSlide>
         </Swiper>
+        <Swiper
+          effect={"cards"}
+          grabCursor={true}
+          modules={[EffectCards]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <h1 className="font-jost font-bold text-2xl text-center pt-5"></h1>
+            <div className="ml-10 py-6 border-b w-[260px]">
+              <span>Starting At...</span>
+              <h1 className="font-extrabold text-3xl">
+                20,000<span className="text-sm">Rs</span>
+              </h1>
+            </div>
+            <div className="ml-2 mt-5">
+              <ul></ul>
+            </div>
+            <div className="mt-2 absolute border-2 rounded-[50px] border-black font-medium left-5 py-2 px-3">
+              <Link to={"our-courses"}>Read More..</Link>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1 className="font-jost font-bold text-2xl text-center pt-5"></h1>
+            <div className="ml-10 py-6 border-b w-[260px]">
+              <span>Starting At...</span>
+              <h1 className="font-extrabold text-3xl">
+                20,000<span className="text-sm">Rs</span>
+              </h1>
+            </div>
+            <div className="ml-2 mt-5">
+              <ul></ul>
+            </div>
+            <div className="mt-2 absolute border-2 rounded-[50px] border-black font-medium left-5 py-2 px-3">
+              <Link to={"our-courses"}>Read More..</Link>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1 className="font-jost font-bold text-2xl text-center pt-5"></h1>
+            <div className="ml-10 py-6 border-b w-[260px]">
+              <span>Starting At...</span>
+              <h1 className="font-extrabold text-3xl">
+                20,000<span className="text-sm">Rs</span>
+              </h1>
+            </div>
+            <div className="ml-2 mt-5">
+              <ul></ul>
+            </div>
+            <div className="mt-2 absolute border-2 rounded-[50px] border-black font-medium left-5 py-2 px-3">
+              <Link to={"our-courses"}>Read More..</Link>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </>
   );
