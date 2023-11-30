@@ -1,0 +1,78 @@
+.swiper {
+  width: 350px;
+  height: 550px;
+}
+
+.swiper-slide {
+  border-radius: 20px;
+  color: #ffffff;
+
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(127, 191, 255);
+  color: black;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(10, 184, 111);
+
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(180, 10, 47);
+
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+.swiper-slide:nth-child(11n) {
+  background-color: rgb(54, 94, 77);
+}
+.swiper-slide:nth-child(12n) {
+  background-color: rgb(54, 94, 77);
+}
+.h_border {
+  border-bottom: 3px dashed #1c6ea4;
+  width: 50%;
+}
+.g_bg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 0) 80%,
+    rgba(38, 50, 56, 1) 99%
+  );
+}
+@media only screen and (max-width: 500px) {
+  .swiper {
+    width: 200px;
+    height: 450px;
+    margin-bottom: 50px;
+  }
+}

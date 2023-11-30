@@ -1,0 +1,15 @@
+.faq::after {
+  content: " ";
+  border-left: 1px solid #fff;
+  margin: 0 13px 0 13px;
+}
+.background_blur{
+  background-color: rgba(152, 152, 152, 0.435);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+.lucation-bar{
+  background-color: rgba(0, 0, 0, 0.53);
+  backdrop-filter: blur(10px);
+  position: absolute;
+}
